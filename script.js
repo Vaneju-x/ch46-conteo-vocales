@@ -16,7 +16,10 @@ function encontrarNumeroDeLetra( letra, nombre ) {
     }
     return numeroDeLetras;
 }
-
+function leerValorDeNombre(){
+ const inputNombre = document.getElementByld("nombre");
+ return inputNombre.value;
+}
 
 function manejoDelEventoDeImputNombre(){
     console.log("Me estoy Invocando");
